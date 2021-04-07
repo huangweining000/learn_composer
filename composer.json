@@ -1,0 +1,25 @@
+{
+	"name": "jason/diandian",
+	"description": "这事是一个测试",
+	"type": "project",
+	"license": "MIT",
+	"authors": [
+		{
+			"name": "Jason",
+			"email": "jason@diandian.ink"
+		}
+	],
+	"minimum-stability": "dev",
+	"require": {},
+	"autoload": {
+		"psr-4": {
+			"Packagist\\": "src/packagist/"
+		}
+	},
+	"repositories": {
+		"packagist": {
+			"type": "composer",
+			"url": "https://mirrors.aliyun.com/composer/"
+		}
+	}
+}
